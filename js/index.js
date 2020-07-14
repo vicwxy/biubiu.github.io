@@ -166,8 +166,7 @@ $(function () {
         * 歌单详细见
         * https://api.uomg.com/doc-rand.music.html
         */
-        $.getJSON('https://api.uomg.com/api/rand.music?', {
-            sort: '热歌榜'
+        $.getJSON('https://music.163.com/#/playlist?id=5119262406', {
             ,format: 'json'
         }, function(json, textStatus) {
             if (json.code == 1) {
